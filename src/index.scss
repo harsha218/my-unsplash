@@ -1,0 +1,41 @@
+body {
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#root {
+	height: 100vh;
+}
+
+html {
+	box-sizing: border-box;
+	scrollbar-width: thin !important;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+.errMsg {
+	margin: 0;
+	color: red;
+	font-size: smaller;
+}
+
+button:focus,
+button:active{
+    box-shadow:none !important;
+    outline:0px !important;
+}
+
+.form-control:focus,
+.form-control:active{
+    box-shadow:none !important;
+    outline:0px !important;
+}
+
+.modal-content {
+	border-radius: 16px !important;
+}
